@@ -1,0 +1,50 @@
+//Muzej
+
+INSERT INTO Muzej(Naziv)
+VALUES ('Luvr');
+
+INSERT INTO Muzej(Naziv)
+VALUES ('Vazduhoplovstva');
+
+INSERT INTO Muzej(Naziv)
+VALUES ('Savremene umetnosti');
+
+
+//Predmeti
+
+INSERT INTO Predmet (Naziv,Tip,Godina,MuzejID,Tvorac,Era)
+VALUES ('The Fortune Teller','Slika',1598,2,'Karavadjo','n.e.');
+
+INSERT INTO Predmet (Naziv,Tip,Godina,MuzejID,Tvorac,Era)
+VALUES ('The Starry Night','Slika',1889,4,'Vincent Van Gogh','n.e.');
+
+INSERT INTO Predmet (Naziv,Tip,Godina,MuzejID,Tvorac,Era)
+VALUES ('Liberata','Slika',2020,4,'Dalton Paula','n.e.');
+
+INSERT INTO Predmet (Naziv,Tip,Godina,MuzejID,Tvorac,Era)
+VALUES ('Zumbi','Slika',2020,4,'Dalton Paula','n.e.');
+
+INSERT INTO Predmet (Naziv,Tip,Godina,MuzejID,Tvorac,Era)
+VALUES ('Mona Lisa','Slika',1503,2,'Leonardo da Vinci','n.e.');
+
+INSERT INTO Predmet (Naziv,Tip,Godina,MuzejID,Tvorac,Era)
+VALUES ('Venus De Milo','Slika',150,2,'Alexandros of Antioch','p.n.e.');
+
+INSERT INTO Predmet (Naziv,Tip,Godina,MuzejID,Tvorac,Era)
+VALUES ('Liberty Leading the People','Slika',1830,2,'Eugene Delacroix','n.e.');
+
+INSERT INTO Predmet (Naziv,Tip,Godina,MuzejID,Tvorac,Era)
+VALUES ('IljusinII-2','Avion',1941,3,'','n.e.');
+
+INSERT INTO Predmet (Naziv,Tip,Godina,MuzejID,Tvorac,Era)
+VALUES ('Mesersmit Me-109','Avion',1937,3,'','n.e.');
+
+INSERT INTO Predmet (Naziv,Tip,Godina,MuzejID,Tvorac,Era)
+VALUES ('Hariken Mk.IV','Avion',1936,3,'','n.e.');
+
+INSERT INTO Predmet (Naziv,Tip,Godina,MuzejID,Tvorac,Era)
+VALUES ('Fizir FN','Avion',1931,3,'','n.e.');
+
+
+
+
